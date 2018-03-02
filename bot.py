@@ -36,4 +36,4 @@ while(True):
     post = create_post()
     print(post)
     api.update_status(post)
-    time.sleep(60 * 60 * 4)
+    time.sleep(60)
